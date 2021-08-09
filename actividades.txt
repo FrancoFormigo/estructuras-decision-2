@@ -1,0 +1,34 @@
+PRACTICA
+Tarea – Nro 4. (Realizar los ejercicios con PSeInt)
+1) Ingresar hora y minutos para calcular cuantos minutos faltan para la
+siguiente hora, y mostrarlos de la siguiente forma:
+ "DENTRO DE " <minutos> "MINUTOS SERA LA HORA" <hora>
+ Ejemplo: hora: 9 minutos:15 - mostrar el mensaje:
+ "DENTRO DE 45 MINUTOS SERA LA HORA 10"
+La hora se tomará de 0 a 23.
+En caso de que el operador ingrese algún dato erróneo, enviar un mensaje de
+error.
+2) Ingresar 3 números e informar el mayor valor ingresado
+3) Ingresar las medidas de los tres lados de un triángulo y mostrar a qué tipo de
+triángulo pertenece: EQUILATERO, ISOSCELES o ESCALENO.
+Equilátero. : tiene los 3 lados iguales
+Isósceles.... : tiene 2 lados iguales
+Escaleno.... : tiene los 3 lados desiguales
+4) Ingresar 3 números y mostrarlos ordenados de menor a mayor.
+ Ejemplo:
+ Si ingreso 5 - 2 - 4, mostrar como resultado 2 - 4 - 5
+5) Realizar el pseudocódigo de un programa , que permita ingresar la hora y
+los minutos, y lo salude por pantalla de la siguiente manera:
+
+ "BUEN DIA..!” ( 6:00 a 12:00)
+ "BUENAS TARDES..!" (12:01 a 19:00)
+ "BUENAS NOCHES..!" (19:01 a 5:59)
+
+La hora y los minutos se ingresarán en dos variables, en caso de que alguno
+de los dos datos sean erróneos, enviar un mensaje de error “ DATOS
+ERRÓNEOS”.
+Ejemplo:
+Si ingreso hora: 3 y minutos: 25 debe informar "BUENAS NOCHES..!"
+Si ingreso hora: 12 y minutos: 15 debe informar "BUENAS TARDES..!"
+Si ingreso hora: 11 y minutos: 00 debe informar "BUEN DIA..!”
+Si ingreso hora: 24 y minutos: 23 debe informar “ DATOS ERRÓNEOS”
